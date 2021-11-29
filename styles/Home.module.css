@@ -1,0 +1,41 @@
+
+
+.policyContents{
+  background-color: rgba(228, 234, 241, 0.418);
+  padding: 50px 10px 30px 20px;
+  border-radius: 25px;
+}
+
+.about>h3,.acceptance>h3, .contactUs>h3{
+  font-weight: 700;
+  
+}
+.about>p, .acceptance>p, .contactUs>p{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.continueBtn{
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  background-color: rgb(182, 3, 122);
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.privacyHeader{
+  display: flex;
+  padding: 30px 0px 10px 5px;
+  justify-content: baseline;
+  align-items: center;
+}
+.privacyHeader>h3{
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+
+

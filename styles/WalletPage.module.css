@@ -1,0 +1,45 @@
+.walletWrapper {
+  margin-top: 188px;
+}
+.walletBtn,
+.walletBtnCreate {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 24px;
+  margin-top: 20px;
+  background-color: rgb(202, 40, 121);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.walletBtn:hover{
+  background-color: rgb(187, 29, 108);
+}
+.walletBtnCreate{
+  background-color: transparent;
+  color: #000;
+  transition: 0.3s;
+}
+.walletBtnCreate:hover{
+  background-color: rgb(235, 244, 252);
+}
+.walletContent{
+  margin-bottom: 40px;
+}
+
+.walletContent>h3{
+  font-weight: 600;
+}
+.walletContent>p{
+  margin-top: 10px;
+  color: rgb(129, 129, 129);
+}
+
+
+
+
+
+
+

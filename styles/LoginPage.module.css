@@ -1,0 +1,61 @@
+
+
+
+
+/* // css example */
+.arrowIcon {
+  content: "\2190";
+  background-color: rgba(222, 233, 236, 0.685);
+  padding: 16px 12px 9px 12px;
+  border-radius: 5px;
+}
+.orHr{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.topContentBox{
+  margin-top: 20px;
+  cursor: pointer;
+}
+.topContentBox>h3{
+  margin-top: 40px;
+  font-weight: 700;
+}
+.topContentBox>p{
+  margin-top: 20px;
+  font-weight: 600;
+  color: rgba(92, 92, 92, 0.473);
+}
+
+.lockerBtn,
+.dashboardBtn, .googleBtn{
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  padding: 7px 0px 7px 20px;
+  border: none;
+  font-weight: 600;
+  vertical-align: text-top;
+  border-radius: 5px;
+  background-color: rgba(222, 233, 236, 0.685);
+  transition: 0.3s;
+}
+.googleBtn{
+  margin-top: 10px;
+}
+.lockerBtn:hover,
+.dashboardBtn:hover, .googleBtn:hover{
+  background-color: rgb(200, 218, 223);
+}
+
+
+
+
+
+
+
+
+
+
+
